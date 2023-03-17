@@ -1,0 +1,46 @@
+/*
+Title: balmor portfolio
+Author: Damian Duda
+---------------------------------------------    
+
+Contact styles
+---------------------------------------------   */
+body{background-image:url(img/top_bgk.png);background-repeat:repeat-x;}
+article{clear:both;min-height:700px;}
+article h2{font-family:Myriad Pro, Georgia, "Times New Roman", Times, serif;font-size:26px;font-style:normal;font-weight:400;color:#333;border-left:0 solid #8abf5c;text-shadow:1px 1px 0 #fff;background-image:url(img/Message.png);background-repeat:no-repeat;margin:10px 0 70px;padding:10px 80px;}
+.column1{float:left;width:600px;margin-left:50px;margin-bottom:30px;padding-right:20px;}
+.column2{float:left;width:250px;padding-left:40px;margin-bottom:30px;background-image:url(img/light.png);background-repeat:no-repeat;background-position:top left;min-height:750px;}
+p{font-family:Helvetica, "Lucida Grande", sans-serif;}
+article p{font-size:15px;line-height:24px;letter-spacing:1px;text-shadow:1px 1px 0 #fff;width:550px;color:#545454;margin:25px 0 0 10px;}
+article span{font-family:Arial, sans-serif;padding-top:2px;margin-left:20px;color:#545454;display:block;font-size:14px;font-weight:400;line-height:24px;text-transform:none;text-shadow:1px 1px 0 #fff;font-variant:small-caps;}
+p.sociall img{width:105px;height:35px;border:3px solid #ccc;border-radius:9px;-moz-border-radius:9px;-webkit-border-radius:9px;margin:20px 0 0 20px;}
+p.sociall img:hover{border:3px solid #b8b8b8;}
+dl,dt,dd{display:block;font-size:12px;width:180px;font-family:Arial, sans-serif;letter-spacing:1px;margin:0;padding:0;}
+dt{font-style:normal;font-variant:small-caps;color:#545454;font-size:15px;text-transform:none;text-shadow:1px 1px 0 #fff;margin:15px 0 3px;}
+dl{margin:0 0 30px 20px;}
+dl a:link,dl a:visited{display:block;color:#333;padding:5px 0;}
+dl a:hover{color:#8abf5c;}
+dd{color:#545454;line-height:18px;}
+.iconset{border:0;vertical-align:middle;}
+.skypo{margin-right:8px;}
+.phone{margin:0 8px 0 2px;}
+.gadu{margin-right:4px;}
+.location{float:left;margin-right:7px;}
+.loca{margin-bottom:5px;}
+h5{font-family:Helvetica, sans-serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:1px;text-shadow:1px 1px 0 #fff;margin-top:4em;margin-bottom:40px;}
+h6{border-left-color:#8abf5c;border-left-style:solid;border-left-width:5px;font-family:"Georgia", "Times New Roman";font-style:italic;color:#111;display:block;font-size:30px;font-weight:400;margin-top:0.83em;text-shadow:1px 1px 0 #fff;background:url(img/line-top.png);background-repeat:no-repeat;background-position:bottom left;padding:10px 0 14px 25px;}
+.lubie {margin: 30px 0 10px 20px;}
+
+/* Form contact
+---------------------------------------------   */
+#contact-wrapper{width:500px;margin-left:15px;padding:20px;}
+#contact-wrapper div{clear:both;margin:1em 0;}
+#contact-wrapper label{display:block;float:none;font-size:15px;width:auto;font-family:Helvetica, Arial, sans-serif;color:#555;font-variant:small-caps;padding:4px;}
+form#contactform input[type="text"]{background:#fff;font-family:Helvetica, Arial, sans-serif;font-size:15px;color:#777;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-color:#ccc;border-style:solid;border-width:1px;padding:8px 5px 8px 34px;}
+form#contactform textarea{background:#fff;font-family:Helvetica, Arial, sans-serif;color:#777;font-size:15px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-color:#ccc;border-style:solid;border-width:1px;padding:8px 10px;}
+form#contactform input[type="submit"]{background:#8abf5c;color:#fff;letter-spacing:2px;border:solid 1px #6a9346;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;-moz-box-shadow:0 2px 2px #ccc;-webkit-box-shadow:0 2px 2px #ccc;box-shadow:0 2px 2px #ccc;font-variant:small-caps;cursor:pointer;padding:10px 15px;}
+form#contactform input[type="submit"]:hover,form.contact input[type="submit"]:focus{background:#78a64f;color:#fff;}
+#contact-wrapper #contactname{background-image:url(img/person.png);background-repeat:no-repeat;background-position:10px 9px;}
+#contact-wrapper #email{background-image:url(img/mail.png);background-repeat:no-repeat;background-position:10px;}
+#contact-wrapper #subject{background-image:url(img/star.png);background-repeat:no-repeat;background-position:10px 9px;}
+form#contactform input[type="text"]:hover,form#contactform input[type="text"]:focus,form#contactform textarea:hover,form#contactform textarea:focus{background:#fff;border:solid 1px #8abf5c;-moz-box-shadow:0 2px 2px #ccc;-webkit-box-shadow:0 2px 2px #ccc;box-shadow:0 2px 2px #ccc;color:#555;}

@@ -1,0 +1,15 @@
+{
+  "name": "portfolio_2011",
+  "version": "1.0.0",
+  "author": "Damian Duda",
+  "license": "ISC",
+  "description": "Grafik i projektant stron interentowych",
+  "scripts": {
+    "serve": "live-server --open=./src/ --port=5080",
+    "start": "yarn serve"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "live-server": "1.2.1"
+  }
+}

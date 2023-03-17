@@ -1,0 +1,24 @@
+/*
+Title: balmor portfolio
+Author: Damian Duda
+---------------------------------------------    
+
+About styles
+---------------------------------------------   */
+body{background-image:url(img/top_bgk.png);background-repeat:repeat-x;}
+article{clear:both;min-height:700px;}
+article h2{font-family:Myriad Pro, Georgia, "Times New Roman", Times, serif;font-size:26px;font-style:normal;font-weight:400;color:#333;border-left:0 solid #8abf5c;text-shadow:1px 1px 0 #fff;background-image:url(img/about.png);background-repeat:no-repeat;margin:10px 0 70px;padding:10px 80px;}
+div.progress{background-attachment:scroll;background-clip:border-box;background-color:#9ca0a3;background-image:none;background-origin:padding-box;background-position:0 0;background-repeat:repeat;background-size:auto;border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;width:140px;margin:0 0 2px 20px;}
+div.progress > div{background-color:#3d4041;border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;height:10px;}
+.column1{float:left;width:600px;margin-left:50px;margin-bottom:30px;padding-right:20px;}
+.column2{float:left;width:250px;padding-left:40px;margin-bottom:30px;background-image:url(img/light.png);background-repeat:no-repeat;background-position:top left;min-height:750px;}
+article img:hover{background-color:#f1f1f1;box-shadow:none;background:transparent;}
+article p{font-size:15px;line-height:24px;letter-spacing:1px;text-shadow:1px 1px 0 #fff;width:550px;color:#545454;margin:30px 0 0 25px;}
+article span{font-family:Arial, sans-serif;padding-top:2px;margin-left:20px;color:#545454;display:block;font-size:15px;font-weight:400;line-height:24px;text-transform:none;text-shadow:1px 1px 0 #fff;font-variant:small-caps;}
+article img{background-color:#fff;border:1px solid #aaa;border-radius:5px;box-shadow:1px 1px 1px #bbb;margin:20px 0 0 20px;padding:5px;}
+p{font-family:Helvetica, "Lucida Grande", sans-serif;}
+h5{font-family:Helvetica, sans-serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:1px;text-shadow:1px 1px 0 #fff;margin-top:3em;margin-bottom:10px;}
+h6{border-left-color:#8abf5c;border-left-style:solid;border-left-width:5px;font-family:"Georgia", "Times New Roman";font-style:italic;color:#111;display:block;font-size:30px;font-weight:400;margin-top:0.83em;text-shadow:1px 1px 0 #fff;background:url(img/line-top.png);background-repeat:no-repeat;background-position:bottom left;padding:10px 0 14px 25px;}
+blockquote{clear:both;text-align:center;width:720px;background-attachment:scroll;background-clip:border-box;background-color:#fff;background-image:url(img/quote.png);background-origin:padding-box;background-position:10px 15px;background-repeat:no-repeat;background-size:auto;margin-bottom:50px;margin-left:50px;text-shadow:1px 1px 0 #fff, 2px 2px 2px #aaa;text-transform:none;border-color:#e2e2e2 currentColor;border-style:double none;border-width:3px medium;padding:0 0 30px 60px;}
+blockquote p{width:660px;line-height:32px;font-size:26px;font-style:italic;font-weight:700;text-shadow:1px 1px 0 #fff, 2px 2px 2px #aaa;}
+blockquote p span{text-align:right;font-size:14px;}

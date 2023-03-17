@@ -1,0 +1,67 @@
+/*
+Title: balmor portfolio
+Author: Damian Duda
+---------------------------------------------    
+
+General CSS Styles
+---------------------------------------------   */
+body{font:Helvetica, Arial, Verdana, sans-serif;color:#2e3037;background-image:url(img/top_bg.png);background-repeat:repeat-x;background-color:#f8f8f2;border-top:2px solid #8abf5c;}
+a{text-decoration:none;color:#333;font-family:Arial, Verdana, sans-serif;}
+
+/* top
+---------------------------------------------   */
+#wraphead{border-bottom:0 solid #f2f2f2;}
+header{height:110px;position:relative;width:960px;background-attachment:scroll;background-image:url(img/light_div.png);background-repeat:no-repeat;background-position:bottom;margin:0 auto;}
+h1{position:absolute;top:10px;left:10px;}
+h1 a{display:block;background:url(img/logo07.png) no-repeat top left;background-attachment:scroll;background-clip:border-box;background-color:transparent;background-origin:padding-box;background-position:0 0;background-repeat:no-repeat;background-size:auto;text-decoration:none;float:left;letter-spacing:0;width:100px;height:80px;font-family:'DeliciousBoldItalic', Arial, Helvetica, sans-serif;font-weight:bolder;color:#555;font-size:50px;text-shadow:2px 2px 2px rgba(0,0,0,0.2);padding:0 0 0 70px;}
+h1 a span{position:relative;top:-34px;left:14px;letter-spacing:3px;font-variant:small-caps;font-family:'OttawaRegular';font-size:15px;text-shadow:0 1px 0 #fff;color:#8abf5c;font-weight:400;}
+h1 a:hover span{color:#b1bdc7;}
+nav{float:left;margin-left:320px;}
+nav ul{margin-top:-2px;}
+nav ul li{float:left;margin-right:15px;}
+nav ul li a{display:block;color:#555;text-decoration:none;font-family:'TheanoOldStyleRegular', 'Maven Pro', 'TrajanProRegular', Arial, sans-serif;font-size:1.2em;font-weight:200;letter-spacing:1px;text-shadow:#FFF 0 -1px 0;border:2px solid transparent;padding:20px 10px 12px;}
+nav ul li a.current{border-left:2px solid #8abf5c;border-right:2px solid #8abf5c;border-bottom:2px solid #8abf5c;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;background-color:#fff;-moz-box-shadow:0 2px 2px #ccc;-webkit-box-shadow:0 2px 2px #ccc;box-shadow:0 2px 2px #ccc;}
+nav ul li a.menu:hover{border:2px solid #8abf5c;background-color:#fefefe;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;}
+nav ul li a.current:hover{border-left:2px solid #8abf5c;border-right:2px solid #8abf5c;border-bottom:2px solid #8abf5c;border-top:2px solid #transparent;background-color:#fff;}
+nav ul li a span{display:block;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;color:#999;font-size:10px;font-weight:400;padding-top:2px;text-align:right;letter-spacing:1px;}
+a.selected{background-color:#fff;font-family:'Maven Pro', "Georgia", "Times New Roman", "Times", serif;font-size:10px;color:#333;margin-left:45px;border-left:1px solid #8abf5c;border-right:1px solid #8abf5c;border-bottom:1px solid #8abf5c;letter-spacing:0;text-decoration:none;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;-moz-box-shadow:0 1px 1px #ccc;-webkit-box-shadow:0 1px 1px #ccc;box-shadow:0 1px 1px #ccc;padding:6px 10px;}
+a.lang{font-family:'Maven Pro', "Georgia", "Times New Roman", "Times", serif;font-size:10px;color:#666;border-left:1px solid transparent;border-right:1px solid transparent;border-bottom:1px solid transparent;letter-spacing:0;text-decoration:none;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;padding:6px 8px;}
+a.lang:hover{background-color:#fff;border-top:2px solid #8abf5c;border-left:1px solid #8abf5c;border-right:1px solid #8abf5c;border-bottom:1px solid #8abf5c;}
+
+/* content
+---------------------------------------------   */
+section{width:960px;margin:0 auto;}
+
+/* footer
+---------------------------------------------   */
+#fotsh{clear:both;height:5px;background-color:#ccc;border-top:1px dotted #999;}
+#wrapft{border-top:1px solid #fff;background-image:url(img/foot-bg.png);background-repeat:repeat;background-color:#222;}
+footer{width:960px;height:160px;padding-left:80px;margin:0 auto;}
+footer .col{float:left;width:210px;margin:20px 40px;}
+footer .soc{width:260px;}
+h3{color:#999;font-family:"Helvetica", "Arial", sans-serif;font-size:18px;font-style:normal;text-shadow:0 -1px 1px #000;letter-spacing:5px;text-align:center;padding-bottom:7px;background-image:url(img/kreska.gif);background-repeat:repeat-x;background-position:bottom left;}
+footer .col ul{background-image:url(img/cyp.png);background-repeat:no-repeat;background-position:top 15px;padding-top:12px;}
+footer .col ul li{list-style-image:none;list-style-position:outside;list-style-type:none;margin-left:15px;padding:3px;}
+footer .col ul li a{color:#f4f4f4;text-decoration:none;font-size:14px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;outline-style:none;outline-width:medium;letter-spacing:1px;text-shadow:0 -1px 1px #000;}
+footer .col ul li a:hover{color:#fff;text-shadow:0 0 6px #8abf5c;}
+footer .col ul li a.homepage{background-image:url(img/homepage-grey.gif);background-repeat:no-repeat;background-position:left;padding-left:24px;}
+footer .col ul li a.links{background-image:url(img/iyellow-grey.gif);background-repeat:no-repeat;background-position:left;padding-left:24px;}
+footer .col ul li a.portfolio{background-image:url(img/portfolio-grey.gif);background-repeat:no-repeat;background-position:left;padding-left:24px;}
+footer .col ul li a.facebook{background-image:url(img/facebook.png);background-repeat:no-repeat;background-position:0 0;margin-right:22px;padding:7px 0 7px 40px;}
+footer .col ul li a.youtube{background-image:url(img/youtube.png);background-repeat:no-repeat;background-position:0 0;margin-right:30px;padding:7px 0 7px 40px;}
+footer .col ul li a.filmweb{background-image:url(img/filmweb.png);background-repeat:no-repeat;background-position:0 0;padding:7px 0 7px 40px;}
+footer .col ul li a.google{background-image:url(img/plus.png);background-repeat:no-repeat;background-position:0 0;;padding:7px 0 7px 40px;}
+@media all and (min-width:0) {
+    footer .col ul li a.facebook,footer .col ul li a.youtube,footer .col ul li a.filmweb,footer .col ul li a.google { padding:8px 0 8px 40px \0/; }  /* IE9 */}
+footer .col ul li.social{margin:5px 0 22px 10px;}
+/*footer .col ul li a.facebook:hover,footer .col ul li a.youtube:hover,footer .col ul li a.filmweb:hover,footer .col ul li a.google:hover{background-position:bottom left;}*/
+.author{clear:both;height:40px;background-attachment:scroll;background-clip:border-box;background-color:#000;background-origin:padding-box;background-position:0 0;background-repeat:repeat;background-size:auto;border-top-color:#333232;border-top-style:solid;border-top-width:1px;}
+.author-area{color:#999;font-family:"Helvetica", "Arial", sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;line-height:14px;overflow-x:hidden;overflow-y:hidden;width:960px;background-image:url(img/line.png);background-repeat:no-repeat;background-position:860px center;margin:0 auto;padding:13px 0 13px 30px;}
+.author a{text-decoration:none;color:#fff;padding:2px;}
+.author a:hover{color:#8abf5c;text-shadow:0 0 6px #8abf5c;}
+.author a.logotiny{background-image:url(img/logo-tiny.png);background-repeat:no-repeat;background-position:left;padding:5px 5px 5px 25px;}
+a.html5{background-image:url(img/HTML5.png);background-repeat:no-repeat;padding-right:20px;}
+.valid{float:right;}
+.valid span a{background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:url("img/up.png");background-origin:padding-box;background-repeat:no-repeat;background-size:auto;background-position:right;margin:0 30px 0 50px;padding:5px 25px 5px 0;}
+.valid span a:hover{background-image:url("img/up.png");background-repeat:no-repeat;background-position:right;background-color:transparent;color:#8abf5c;}
+::selection,::-moz-selection{background-attachment:scroll;background-clip:border-box;background-color:#488000;background-image:none;background-origin:padding-box;background-position:0 0;background-repeat:repeat;background-size:auto;color:#eee;text-shadow:none;}

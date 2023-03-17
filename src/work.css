@@ -1,0 +1,17 @@
+/*
+Title: balmor portfolio
+Author: Damian Duda
+---------------------------------------------    
+
+Works styles
+---------------------------------------------   */
+body{background-image:url(img/top_bgk.png);background-repeat:repeat-x;}
+article{clear:both;}
+article h2{font-family:Myriad Pro, Georgia, "Times New Roman", Times, serif;font-size:26px;font-style:normal;font-weight:400;color:#333;border-left:0 solid #8abf5c;text-shadow:1px 1px 0 #fff;background-image:url(img/Quill.png);background-repeat:no-repeat;margin:10px 0 50px;padding:10px 80px;}
+article img{display:block;border-radius:5px;border:1px solid #666;transition-delay:0;transition-duration:0.4s;transition-property:all;transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);-o-transition-delay:0;-o-transition-duration:0.4s;-o-transition-property:all;-o-transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);-webkit-transition-delay:0;-webkit-transition-duration:0.4s;-webkit-transition-property:all;-webkit-transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);-moz-transition-delay:0;-moz-transition-duration:0.4s;-moz-transition-property:all;-moz-transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);background-color:#fff;background-image:none;background-origin:padding-box;background-attachment:scroll;background-clip:border-box;background-size:auto;box-shadow:2px 2px 2px #bbb;color:#333;margin:70px 0 0;padding:5px;}
+.column1,.column2{float:left;margin-left:20px;margin-bottom:70px;}
+.column2{margin-left:110px;margin-bottom:70px;}
+article img:hover{background-color:#f1f1f1;box-shadow:none;}
+article p{font-size:15px;font-weight:700;text-transform:uppercase;line-height:20px;letter-spacing:1px;text-shadow:1px 1px 0 #fff;height:90px;width:350px;margin:14px 0 0 15px;}
+article p span{font-family:Arial, sans-serif;padding-top:2px;color:#545454;display:block;font-size:14px;font-weight:400;text-transform:none;text-shadow:1px 1px 0 #fff;font-variant:small-caps;}
+p{font-family:Helvetica, "Lucida Grande", sans-serif;}

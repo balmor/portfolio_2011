@@ -1,0 +1,49 @@
+/*
+Title: balmor portfolio
+Author: Damian Duda
+---------------------------------------------    
+
+Home styles
+---------------------------------------------   */
+.slider{margin-bottom:50px;}
+.slogan{background-image:url("http://balmor.pl/img/slogan.gif");background-position:top left;border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;width:535px;margin:0 auto;padding:25px 50px;}
+.slogan p{color:#8abf5c;font-size:40px;text-align:center;font-family:"ProximaNovaRegular", serif;text-shadow:1px 1px 0 #fff;}
+.slogan span.kolor01{color:#84af5f;}
+.slogan span.kolor02{color:#79a058;}
+#content{padding-bottom:20px;font-size:16px;margin:20px;}
+#content h4{border-left-color:#8abf5c;border-left-style:solid;border-left-width:5px;font-family:"Georgia", "Times New Roman";font-style:italic;color:#111;display:block;font-size:30px;font-weight:400;margin-top:0.83em;text-shadow:1px 1px 0 #fff;background:url(img/line-top.png);background-repeat:no-repeat;background-position:bottom;padding:10px 0 14px 25px;}
+.left{width:320px;float:left;margin-left:100px;margin-bottom:50px;}
+.right{width:320px;float:right;margin-right:100px;margin-bottom:50px;}
+.left ul li{background:url(img/sign.png);background-origin:padding-box;background-position:0 50%;background-repeat:no-repeat;background-size:auto;list-style-image:none;list-style-position:outside;list-style-type:none;letter-spacing:0.03em;text-shadow:1px 1px 0 #fff;color:#666;width:320px;margin:5px 0 5px 20px;padding:7px 0 7px 35px;}
+#content p{height:200px;color:#666;line-height:1.5em;padding:16px 0 4px 20px;}
+.left ul{height:200px;padding:5px 0 15px;}
+div.cien{height:265px;}
+div.cien:hover{background-image:url(img/shw.png);background-repeat:repeat-y;}
+div.cien a{color:#44620a;text-decoration:none;}
+div.cien span{background-color:#8abf5c;display:block;float:right;border:1px solid #70915f;box-shadow:inset 0 1px 0 #eee;border-bottom-left-radius:6px;border-bottom-right-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px;color:#ebf2d9;font-family:Arial;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:10px 15px 8px;}
+div.cien span:hover{background-color:#99c276;color:#fff;}
+hr{background-image:url(img/line-btm.png);background-repeat:no-repeat;background-position:bottom;border:0;height:2px;margin:0 0 30px;}
+
+/* slider cycle
+---------------------------------------------   */
+.slideshow{width:960px;margin:0 auto;}
+.slideshow img{padding:10px 0;}
+.slide{position:absolute;left:0;opacity:1px;width:960px;height:280px;z-index:3;top:-230px;display:none;}
+.feattxt{margin-top:35px;margin-left:45px;width:390px;float:left;}
+.featimg{width:507px;height:270px;float:right;}
+img.slide1{margin:9px 0 0 10px;}
+h2{font-family:Helvetica, Arial;font-size:20px;color:#000;line-height:25px;padding-right:30px;letter-spacing:0;}
+h2 span.green{font-size:20px;color:#444;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#EEEEEE',GradientType=1 );background:linear-gradient(left, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#eeeeee 100%);}
+h2 span{font-size:36px;color:#8abf5c;}
+h2 span.welcome{font-size:36px;color:#000;}
+.feattxt p{font-family:Helvetica, Arial;font-size:15px;font-style:italic;margin-top:20px;line-height:22px;letter-spacing:1px;color:#666;}
+.buttonLink a{display:block;background-image:url(images/button.png);background-repeat:no-repeat;background-position:left center;width:136px;height:39px;color:#fff;font-family:'TheanoOldStyleRegular', arial, serif;text-decoration:none;font-weight:700;text-shadow:0 2px 2px #777;letter-spacing:1px;margin:10px 0 0 120px;padding:20px 0 0 32px;}
+#dots{height:27px;width:960px;background:transparent url('images/feature_pagination_div.png') 0 13px no-repeat;margin:15px auto 0;}
+#controls{width:145px;margin:0 auto;}
+.leftarrow{margin-left:6px;float:left;background-color:#fff;background-image:url(images/lewy_arrow.png);background-repeat:no-repeat;background-position:5px 5px;border:1px solid #ccc;box-shadow:inset 0 1px 3px #bbb;border-radius:6px;color:#ebf2d9;display:inline-block;height:25px;width:25px;}
+.rightarrow{margin-right:6px;float:right;background-color:#fff;background-image:url(images/prawy_arrow.png);background-repeat:no-repeat;background-position:5px 5px;border:1px solid #ccc;box-shadow:inset 0 1px 3px #bbb;border-radius:6px;color:#ebf2d9;display:inline-block;height:25px;width:25px;}
+ul.navigation{width:70px;height:27px;display:block;float:left;margin:0 auto;padding:6px 0 0 7px;}
+ul.navigation a{width:15px;height:15px;text-indent:-9999px;display:block;}
+ul.navigation li.activeSlide{background-color:#8abf5c;background-image:0;box-shadow:inset 0 1px 0 #eee;background-attachment:scroll;background-clip:border-box;background-origin:padding-box;background-position:0 0;background-repeat:repeat;background-size:auto;border-bottom-left-radius:3px;border-bottom-right-radius:3px;border-top-left-radius:3px;border-top-right-radius:3px;display:inline-block;height:10px;overflow-x:hidden;overflow-y:hidden;text-indent:100em;width:10px;border-color:#5e913f;border-style:solid;border-width:1px;margin:0 2px;}
+.clear{clear:both;display:block;overflow:hidden;width:960px;height:1px;}
+ul.navigation li,ul.navigation li:hover,ul.navigation li:focus{background-attachment:scroll;background-clip:border-box;background-color:rgba(0, 0, 0, 0.102);background-image:none;background-origin:padding-box;background-position:0 0;background-repeat:repeat;background-size:auto;border-bottom-left-radius:3px;border-bottom-right-radius:3px;border-top-left-radius:3px;border-top-right-radius:3px;box-shadow:inset 0 1px 4px #999;display:inline-block;height:10px;overflow-x:hidden;overflow-y:hidden;text-indent:100em;width:10px;border-color:rgba(0, 0, 0, 0.298) rgba(0, 0, 0, 0.298) rgba(0, 0, 0, 0.298) rgba(0, 0, 0, 0.298);border-style:solid;border-width:1px;margin:0 2px;}
