@@ -5,11 +5,9 @@
   "license": "ISC",
   "description": "Grafik i projektant stron interentowych",
   "scripts": {
-    "serve": "live-server --open=./src/ --port=5080",
-    "start": "yarn serve"
+    "start": "live-server --open=./src/ --port=5080"
   },
   "devDependencies": {
-    "node-sass": "^8.0.0",
     "live-server": "1.2.1"
   }
 }
