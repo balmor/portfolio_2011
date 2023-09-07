@@ -8,6 +8,6 @@
     "start": "live-server --open=./src/ --port=5080"
   },
   "devDependencies": {
-    "live-server": "1.2.1"
+    "live-server": "1.2.2"
   }
 }
